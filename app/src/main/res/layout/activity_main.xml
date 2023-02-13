@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calcoletr"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/BTAdd"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="548dp"
+        android:text="+"
+        android:textSize="34sp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BTDivision"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="640dp"
+        android:text="*"
+        android:textSize="34sp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BTMultiplication"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="640dp"
+        android:text=" / "
+        android:gravity="center"
+
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BTMinus"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="548dp"
+        android:text="-"
+        android:gravity="center"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="408dp"
+        android:ems="10"
+        android:hint="Number1"
+        android:inputType="number|text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+
+        android:id="@+id/Number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="472dp"
+        android:ems="10"
+        android:hint="Number2"
+        android:inputType="number|text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="234dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="316dp"
+        android:background="#E1FAB0"
+        android:backgroundTint="#00897B"
+        android:gravity="center"
+        android:hint="Ruselt"
+        android:textColor="#27A35A"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/moo"
+        android:layout_width="159dp"
+        android:layout_height="139dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/images"
+        app:civ_border_color="#FFFF"
+        app:civ_border_width="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="215dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="232dp"
+        android:gravity="center"
+        android:text="Simple Calculator"
+        android:textColor="#FDD835"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
